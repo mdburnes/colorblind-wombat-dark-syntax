@@ -1,0 +1,45 @@
+.source.css {
+    .entity {
+      &.other {
+        &.attribute-name {
+          color: @cb-blue;
+        }
+        &.inherited-class {
+          color: @cb-green;
+        }
+      }
+    }
+    .support {
+      &.function {
+        color: @cb-orange;
+        &.builtin {
+          color: @cb-yellow;
+        }
+      }
+      &.type {
+        color: @cb-yellow;
+      }
+      &.constant {
+        color: @cb-green;
+      }
+      &.class,
+      &.variable,
+      &.other.module {
+        color: @cb-orange;
+      }
+    }
+    .variable {
+      &.parameter,
+      &.other {
+        color: @cb-red;
+      }
+    }
+    .constant {
+      &.language,
+      &.character,
+      &.numeric,
+      &.other {
+        color: @cb-orange;
+      }
+    }
+}

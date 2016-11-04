@@ -1,0 +1,92 @@
+.source.js {
+  .constant {
+    &.language,
+    &.character,
+    &.numeric,
+    &.other {
+      color: @cb-orange;
+    }
+  }
+  .support {
+    &.function {
+      color: @cb-yellow;
+      &.builtin {
+        color: @cb-yellow;
+      }
+    }
+    &.type {
+      color: @cb-green;
+      &.exception.python {
+        color: @cb-yellow;
+      }
+      &.python {
+        color: @cb-yellow;
+      }
+    }
+    &.constant {
+      color: @cb-red;
+    }
+    &.class,
+    &.variable,
+    &.other.module {
+      color: @cb-yellow;
+    }
+  }
+  .entity {
+    &.name {
+      color: @cb-text;
+      &.type {
+        color: @cb-yellow;
+      }
+    }
+    &.other {
+      &.attribute-name {
+        color: @cb-green;
+      }
+      &.inherited-class {
+        color: @cb-red;
+      }
+    }
+  }
+  .keyword {
+    color: @cb-blue;
+    &.control {
+      color: @cb-green;
+      &.regexp {
+        color: @cb-red;
+      }
+    }
+    &.operator.new {
+      color: @cb-green;
+    }
+  }
+  .variable {
+    &.parameter,
+    &.other {
+      color: @cb-red;
+    }
+  }
+  .comma {
+    color: @cb-text;
+  }
+  .regexp {
+    color: @cb-red;
+  }
+  .punctuation.terminator.statement {
+    color: @cb-text;
+  }
+  .meta {
+    &.brace {
+      color: @cb-text;
+      &.square {
+        color: @cb-blue;
+      }
+      &.curly {
+        color: @cb-blue;
+      }
+    }
+    &.delimiter.method.period {
+      color: @cb-text;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.source.python {
+  .keyword.operator.logical.python {
+    color: @cb-blue;
+  }
+  .entity {
+    &.other {
+      &.attribute-name {
+        color: @cb-green;
+      }
+      &.inherited-class {
+        color: @cb-red;
+      }
+    }
+  }
+  .support {
+    &.function {
+      color: @cb-yellow;
+      &.builtin {
+        color: @cb-yellow;
+      }
+    }
+    &.type {
+      color: @cb-green;
+      &.exception.python {
+        color: @cb-yellow;
+      }
+      &.python {
+        color: @cb-yellow;
+      }
+    }
+    &.constant {
+      color: @cb-red;
+    }
+    &.class,
+    &.variable,
+    &.other.module {
+      color: @cb-yellow;
+    }
+  }
+  .variable {
+    &.parameter,
+    &.other {
+      color: @cb-red;
+    }
+  }
+  .constant {
+    &.language,
+    &.character,
+    &.numeric,
+    &.other {
+      color: @cb-orange;
+    }
+  }
+}

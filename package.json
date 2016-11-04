@@ -1,0 +1,19 @@
+{
+  "name": "colorblind-wombat-dark-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A syntax theme designed for colorblind people.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "colorblind",
+    "wombat",
+    "dark",
+    "color impaired"
+  ],
+  "repository": "https://atom.io/packages/colorblind-wombat-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
