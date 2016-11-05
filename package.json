@@ -1,7 +1,7 @@
 {
   "name": "colorblind-wombat-dark-syntax",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.0.0",
   "description": "A syntax theme designed for colorblind people.",
   "keywords": [
     "syntax",
@@ -11,7 +11,10 @@
     "dark",
     "color impaired"
   ],
-  "repository": "https://github.com/mdburnes/colorblind-wombat-dark-syntax",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/mdburnes/colorblind-wombat-dark-syntax",
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
