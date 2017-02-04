@@ -1,7 +1,7 @@
 {
   "name": "colorblind-wombat-dark-syntax",
   "theme": "syntax",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "A syntax theme designed for colorblind people. Special attention paid to css, javascript, json, markdown, php, and python.",
   "keywords": [
     "syntax",
