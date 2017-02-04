@@ -1,91 +1,91 @@
-.source.js {
-  .constant {
-    &.language,
-    &.character,
-    &.numeric,
-    &.other {
+.syntax--source.syntax--js {
+  .syntax--constant {
+    &.syntax--language,
+    &.syntax--character,
+    &.syntax--numeric,
+    &.syntax--other {
       color: @cb-orange;
     }
   }
-  .support {
-    &.function {
+  .syntax--support {
+    &.syntax--function {
       color: @cb-yellow;
-      &.builtin {
+      &.syntax--builtin {
         color: @cb-yellow;
       }
     }
-    &.type {
+    &.syntax--type {
       color: @cb-green;
-      &.exception.python {
+      &.syntax--exception.syntax--python {
         color: @cb-yellow;
       }
-      &.python {
+      &.syntax--python {
         color: @cb-yellow;
       }
     }
-    &.constant {
+    &.syntax--constant {
       color: @cb-red;
     }
-    &.class,
-    &.variable,
-    &.other.module {
+    &.syntax--class,
+    &.syntax--variable,
+    &.syntax--other.syntax--module {
       color: @cb-yellow;
     }
   }
-  .entity {
-    &.name {
+  .syntax--entity {
+    &.syntax--name {
       color: @cb-text;
-      &.type {
+      &.syntax--type {
         color: @cb-yellow;
       }
     }
-    &.other {
-      &.attribute-name {
+    &.syntax--other {
+      &.syntax--attribute-name {
         color: @cb-green;
       }
-      &.inherited-class {
+      &.syntax--inherited-class {
         color: @cb-red;
       }
     }
   }
-  .keyword {
+  .syntax--keyword {
     color: @cb-blue;
-    &.control {
+    &.syntax--control {
       color: @cb-green;
-      &.regexp {
+      &.syntax--regexp {
         color: @cb-red;
       }
     }
-    &.operator.new {
+    &.syntax--operator.syntax--new {
       color: @cb-green;
     }
   }
-  .variable {
-    &.parameter,
-    &.other {
+  .syntax--variable {
+    &.syntax--parameter,
+    &.syntax--other {
       color: @cb-red;
     }
   }
-  .comma {
+  .syntax--comma {
     color: @cb-text;
   }
-  .regexp {
+  .syntax--regexp {
     color: @cb-red;
   }
-  .punctuation.terminator.statement {
+  .syntax--punctuation.syntax--terminator.syntax--statement {
     color: @cb-text;
   }
-  .meta {
-    &.brace {
+  .syntax--meta {
+    &.syntax--brace {
       color: @cb-text;
-      &.square {
+      &.syntax--square {
         color: @cb-blue;
       }
-      &.curly {
+      &.syntax--curly {
         color: @cb-blue;
       }
     }
-    &.delimiter.method.period {
+    &.syntax--delimiter.syntax--method.syntax--period {
       color: @cb-text;
     }
   }
